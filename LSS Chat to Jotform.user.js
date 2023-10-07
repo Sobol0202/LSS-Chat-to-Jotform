@@ -12,8 +12,8 @@
     'use strict';
 
     // Jotform API-Endpunkt und API-Schlüssel
-    const JOTFORM_API_ENDPOINT = 'https://eu-api.jotform.com/form/232792158728063/submissions';
-    const JOTFORM_API_KEY = '9a025d5483f8ba7f253e492ce988d997';
+    const JOTFORM_API_ENDPOINT = 'https://eu-api.jotform.com/form/FORMULAR-ID/submissions';
+    const JOTFORM_API_KEY = 'API-KEY';
 
     // Variable, um verarbeitete Nachrichten zu speichern
     let processedMessages = new Set();
